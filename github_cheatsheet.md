@@ -1,6 +1,6 @@
-[TOC]
+# GITHUB
 
-# Introduction
+## Introduction
 
 Why git and github?
 - Maintain and track history of projects.
@@ -8,7 +8,7 @@ Why git and github?
 
 [Download](http://git-scm.com/) git.
 
-## 1. Command lines
+## Command lines
 
 - `ls`: list
   - `-a`: all
@@ -18,7 +18,7 @@ Why git and github?
 - `cat`: display file contents
 - `rm -rf`: delete file   
 
-## 2. Basics
+## Basics
 
 - Initialise a repo? `git init`
 - Where is history stored? .git folder.
@@ -33,7 +33,7 @@ Why git and github?
     - Bring back to unstaged area? `git stash pop`
     - Remove them? `git stash clear`
 
-## 3. New Repository
+## New Repository
 
 - Create one form github dashboard.
 - Attach to my local project? `git remote add origin url` origin is url name.
@@ -41,7 +41,7 @@ Why git and github?
 
 - Share changes: `git push url branch` like `git push origin master`
 
-## 4. Branches
+## Branches
 
 - Directed acyclic graph. now 'main' previously 'master'.
 - Why? 
@@ -52,7 +52,7 @@ Why git and github?
 - `git checkout name` and commit and add changes to this branch parallely.
 - Merge to main code? `git merge name`
 
-## 5. Working with existing projects in github
+## Working with existing projects in github
 
 How to contribute?
 - Create a copy of project into my own account: fork
