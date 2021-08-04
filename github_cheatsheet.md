@@ -68,6 +68,7 @@ How to contribute?
   - Create different branch hence new pull requests for different features we are working on.
   - If a commit is removed using `reset` online repository has commits which local repository doesn't: force push it `git push origon name -f` since commits are interlinked.
 
-- How to keep track of cahnge happening in main branch?
-  - 
+- How to keep in sync with the main branch?
+  - Fetch all the changes/commits: `git fetch --all --prune` i.e. `--all` branches and `--prune` dleted ones.
+  - Reset main branch of my origin to that of upstream: `git reset --hard upstream/main`
 
