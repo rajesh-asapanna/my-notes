@@ -1,3 +1,5 @@
+[TOC]
+
 # Introduction
 
 Why git and github?
