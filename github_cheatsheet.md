@@ -66,9 +66,13 @@ How to contribute?
 - Merge to main project!
   - Request a 'pull request' and get reviewed.
   - Create different branch hence new pull requests for different features we are working on.
-  - If a commit is removed using `reset` online repository has commits which local repository doesn't: force push it `git push origon name -f` since commits are interlinked.
+  - If a commit is removed using `reset` online repository has commits which local repository doesn't: force push it `git push origin name -f` since commits are interlinked.
 
-- How to keep in sync with the main branch?
-  - Fetch all the changes/commits: `git fetch --all --prune` i.e. `--all` branches and `--prune` dleted ones.
+- How to keep in sync with the main branch? **manually**
+  - Fetch all the changes/commits: `git fetch --all --prune` i.e. `--all` branches and `--prune` deleted ones.
   - Reset main branch of my origin to that of upstream: `git reset --hard upstream/main`
+  
+- We can do all this from dashborad too!!
+
+- Merging multiple commits into single commit: `git rebase -i hash`; pick or squash (`s`) to above commits.
 
